@@ -1,0 +1,5 @@
+noview wave
+vsim work.MIPS_Processor_TB
+
+do C:/Users/Pablo-PC/Desktop/School/Arquitectura/Practica2/Entregar/MIPS_Processor/wave.do
+run 200
