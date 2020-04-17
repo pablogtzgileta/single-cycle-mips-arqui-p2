@@ -1,135 +1,7 @@
-# Compile of SignExtend.v was successful.
-# Compile of Adder32bits.v was successful.
-# Compile of ALU.v was successful.
-# Compile of ALUControl.v was successful.
-# Compile of ANDGate.v was successful.
-# Compile of Control.v was successful.
-# Compile of DataMemory.v was successful.
-# Compile of DecoderRegisterFile.v was successful.
-# Compile of Definitions.v was successful.
-# Compile of MIPS_Processor.v was successful.
-# Compile of MIPS_Processor_TB.v was successful.
-# Compile of Multiplexer2to1.v was successful.
-# Compile of MUXRegisterFile.v was successful.
-# Compile of PC_Register.v was successful.
-# Compile of ProgramMemory.v was successful.
-# Compile of Register.v was successful.
-# Compile of RegisterFile.v was successful.
-# Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
-vsim -gui work.MIPS_Processor_TB
-# vsim -gui work.MIPS_Processor_TB 
-# Start time: 08:01:37 on Apr 15,2020
-# Loading work.MIPS_Processor_TB
-# Loading work.MIPS_Processor
-# Loading work.Control
-# Loading work.PC_Register
-# Loading work.ProgramMemory
-# Loading work.Adder32bits
-# Loading work.Multiplexer2to1
-# Loading work.RegisterFile
-# Loading work.DecoderRegisterFile
-# Loading work.Register
-# Loading work.MUXRegisterFile
-# Loading work.SignExtend
-# Loading work.ALUControl
-# Loading work.ALU
-# Loading work.DataMemory
-# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
-# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
-# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
-# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
-add wave sim:/MIPS_Processor_TB/*
-run
-# Compile of SignExtend.v was successful.
-# Compile of Adder32bits.v was successful.
-# Compile of ALU.v was successful.
-# Compile of ALUControl.v was successful.
-# Compile of ANDGate.v was successful.
-# Compile of Control.v was successful.
-# Compile of DataMemory.v was successful.
-# Compile of DecoderRegisterFile.v was successful.
-# Compile of Definitions.v was successful.
-# Compile of MIPS_Processor.v was successful.
-# Compile of MIPS_Processor_TB.v was successful.
-# Compile of Multiplexer2to1.v was successful.
-# Compile of MUXRegisterFile.v was successful.
-# Compile of PC_Register.v was successful.
-# Compile of ProgramMemory.v was successful.
-# Compile of Register.v was successful.
-# Compile of RegisterFile.v was successful.
-# Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
-restart
-# Loading work.MIPS_Processor_TB
-# Loading work.MIPS_Processor
-# Loading work.Control
-# Loading work.PC_Register
-# Loading work.ProgramMemory
-# Loading work.Adder32bits
-# Loading work.Multiplexer2to1
-# Loading work.RegisterFile
-# Loading work.DecoderRegisterFile
-# Loading work.Register
-# Loading work.MUXRegisterFile
-# Loading work.SignExtend
-# Loading work.ALUControl
-# Loading work.ALU
-# Loading work.DataMemory
-# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
-# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
-# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
-# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
-run
-add wave -position end  sim:/MIPS_Processor_TB/DUV/program_counter/NewPC
-add wave -position end  sim:/MIPS_Processor_TB/DUV/program_counter/PCValue
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_at/DataOutput
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_ra/DataOutput
-restart
-# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
-# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
-# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
-# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
-run
-# WARNING: No extended dataflow license exists
-add wave sim:/MIPS_Processor_TB/*
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-add wave -position end  sim:/MIPS_Processor_TB/DUV/program_counter/NewPC
-add wave -position end  sim:/MIPS_Processor_TB/DUV/program_counter/PCValue
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_at/DataOutput
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_ra/DataOutput
-restart
-# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
-# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
-# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
-# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
-run
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/wavetest.do
-do simtest.do
-# ** Error: invalid command name "vaim"
-# Error in macro ./simtest.do line 2
-# invalid command name "vaim"
-#     while executing
-# "vaim work.MIPS_Processor_TB"
-do simtest.do
-# End time: 15:47:47 on Apr 15,2020, Elapsed time: 7:46:10
-# Errors: 6, Warnings: 17
+# Load canceled
+do sim.do
 # vsim work.MIPS_Processor_TB 
-# Start time: 15:47:47 on Apr 15,2020
+# Start time: 21:12:23 on Apr 16,2020
 # Loading work.MIPS_Processor_TB
 # Loading work.MIPS_Processor
 # Loading work.Control
@@ -152,6 +24,119 @@ do simtest.do
 #    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
 # ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
 #    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+run
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+run
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+run
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[2]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[1]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[0]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[8]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[7]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[6]
+add wave -position 25  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[5]
+add wave -position 26  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[4]
+add wave -position 27  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[3]
+add wave -position 8  sim:/MIPS_Processor_TB/DUV/ROMProgramMemory/Instruction
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+run
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/Address
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ReadData
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/WriteData
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+run
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ArithmeticLogicUnit/A
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ArithmeticLogicUnit/B
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+run
 # Compile of SignExtend.v was successful.
 # Compile of Adder32bits.v was successful.
 # Compile of ALU.v was successful.
@@ -195,7 +180,34 @@ restart
 # ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
 #    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
 run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
 restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.DecoderRegisterFile
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
 # ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
 # ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
@@ -203,6 +215,11 @@ restart
 #    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
 # ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
 #    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 18 compiles, 0 failed with no errors.
 run
 # Compile of SignExtend.v was successful.
 # Compile of Adder32bits.v was successful.
@@ -223,15 +240,6 @@ run
 # Compile of RegisterFile.v was successful.
 # Compile of ShiftLeft2.v was successful.
 # 18 compiles, 0 failed with no errors.
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_s1/DataOutput
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_s2/DataOutput
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_s3/DataOutput
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_s4/DataOutput
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_t0/DataOutput
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_t3/DataOutput
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_t5/DataOutput
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_t6/DataOutput
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_t7/DataOutput
 restart
 # Loading work.MIPS_Processor_TB
 # Loading work.MIPS_Processor
@@ -256,22 +264,29 @@ restart
 # ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
 #    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
 run
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Register_sp/DataOutput
-restart
-# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
-# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
-# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
-# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
-#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
 run
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/wave.do
-do sim.do
-# End time: 16:45:26 on Apr 15,2020, Elapsed time: 0:57:39
-# Errors: 0, Warnings: 20
-# vsim work.MIPS_Processor_TB 
-# Start time: 16:45:26 on Apr 15,2020
+# Load canceled
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
 # Loading work.MIPS_Processor_TB
 # Loading work.MIPS_Processor
 # Loading work.Control
@@ -294,5 +309,56 @@ do sim.do
 #    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
 # ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
 #    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
-# End time: 19:47:35 on Apr 15,2020, Elapsed time: 3:02:09
-# Errors: 0, Warnings: 4
+run
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(126): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Puls_8 File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/MIPS_Processor.v(272): [PCDPC] - Port size (1) does not match connection size (32) for port 'Selector'. The port definition is at: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForAddress File: C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/Multiplexer2to1.v
+run
