@@ -71,11 +71,13 @@ hanoiTower:
         jr $ra 	# Return
 main:
     # Assign to $s4 the size of the tower
+    lui $sp, 0x1001
+    addi $sp, $sp, 0xffc
     addi  $s4, $zero, 3
  
     #Pointer to the arrays (Add space to each tower acording to size)
-    add $s1, $zero, 0x10010000	
-    sll $t7, $s4, 2	
+    lui $s1, 0x1001
+    sll $t7, $s4, 2
     add $s2, $t7, $s1
     add $s3, $s2, $t7
  
@@ -84,7 +86,7 @@ main:
     # We loop the towers to add the corresponding values (add values to tower one, depending on the size. Example: size: 3 adds: 3, 2, 1)
     for:
         sw   $t6, 0($s1)
-        add  $s1, $s1, 4
+        addi  $s1, $s1, 4
         addi $t6, $t6, -1
         bne  $t6, $zero, for # If t6 != 0 repeat
 

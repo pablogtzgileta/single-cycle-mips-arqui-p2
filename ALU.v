@@ -63,7 +63,7 @@ localparam JR  = 4'b1011;
 		  LUI:
 			ALUResult={B[15:0],16'b0};
 		  MEM:
-			ALUResult=(A + B - 268500992) / 4;
+			ALUResult=(A + B - 268500992) >> 2;
 		  JR:
 			ALUResult = A;
 		default:
