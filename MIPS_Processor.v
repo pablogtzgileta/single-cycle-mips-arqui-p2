@@ -286,7 +286,7 @@ MUX_ForJump
 (
 .Selector(Jump_wire),
 .MUX_Data0(MUX_PC_Inmmediate_wire),
-.MUX_Data1({PC_4_wire[31:28],InmmediateExtend_wire[25:0],2'b00}),
+.MUX_Data1({PC_4_wire[31:28],Instruction_wire[25:0],2'b00}),
 .MUX_Output(MUX_Jump_wire)
 );
 
