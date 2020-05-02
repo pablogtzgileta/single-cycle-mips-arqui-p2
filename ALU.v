@@ -17,7 +17,7 @@
 *	01/03/2014
 ******************************************************************/
 
-module ALU 
+module ALU
 (
 	input [3:0] ALUOperation,
 	input [31:0] A,
@@ -63,7 +63,7 @@ localparam JR  = 4'b1011;
 		  LUI:
 			ALUResult={B[15:0],16'b0};
 		  MEM:
-			ALUResult=(A + B - 268500992) >> 2;
+			ALUResult=(A + B - 4194304) >> 2;
 		  JR:
 			ALUResult = A;
 		default:

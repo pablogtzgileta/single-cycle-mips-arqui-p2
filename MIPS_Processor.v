@@ -192,7 +192,7 @@ Register_File
 
 SignExtend
 SignExtendForConstants
-(  
+(
 .DataInput(Instruction_wire[15:0]),
    .SignExtendOutput(InmmediateExtend_wire)
 );

@@ -1,7 +1,7 @@
 /******************************************************************
 * Description
-*	This is  a ROM memory that represents the program memory. 
-* 	Internally, the memory is read without a signal clock. The initial 
+*	This is  a ROM memory that represents the program memory.
+* 	Internally, the memory is read without a signal clock. The initial
 *	values (program) of this memory are written from a file named text.dat.
 * Version:
 *	1.0
@@ -22,7 +22,7 @@ module ProgramMemory
 	input [(DATA_WIDTH-1):0] Address,
 	output reg [(DATA_WIDTH-1):0] Instruction
 );
-wire [(DATA_WIDTH-1):0] RealAddress;
+wire [9:0] RealAddress;
 
 assign RealAddress = {2'b0,Address[(DATA_WIDTH-1):2]};
 
@@ -31,7 +31,7 @@ assign RealAddress = {2'b0,Address[(DATA_WIDTH-1):2]};
 
 	initial
 	begin
-		$readmemh("C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/hanoi.dat", rom);
+		$readmemh("C:/MIPSProjects/MIPSProcessor/MIPSProcessor_ver1/hanoi_final.dat", rom);
 	end
 
 	always @ (RealAddress)
